@@ -1,0 +1,14 @@
+[Unit]
+Description=ROT13 Bot
+After=network.target
+
+[Service]
+Type=simple
+User=
+WorkingDirectory=
+ExecStart=/usr/local/bin/node bot.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+~

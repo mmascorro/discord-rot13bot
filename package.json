@@ -1,0 +1,16 @@
+{
+  "name": "discord-rot13bot",
+  "version": "1.0.0",
+  "description": "ROT13 Encoding/Decoding Bot for Discord",
+  "scripts": {
+    "start": "nodemon bot.js"
+  },
+  "author": "Miguel Mascorro",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "ebg13": "^1.3.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
