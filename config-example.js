@@ -1,0 +1,2 @@
+exports.token = '';
+exports.emoji = '';

@@ -18,7 +18,7 @@ client.on('message', message => {
 
 client.on('messageReactionAdd', messageReaction => {
   //check if designated Reaction name
-  if (messageReaction.emoji.name === 'rot13') {
+  if (messageReaction.emoji.name === config.emoji) {
     let rot13message = ebg13(messageReaction.message.content);
     let embed = new Discord.RichEmbed({
       title: 'Decoded Spoiler',
